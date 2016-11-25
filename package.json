@@ -1,0 +1,39 @@
+{
+  "name": "vue-jest-snapshot-proof-of-concept",
+  "version": "0.1.0",
+  "description": ":package_description",
+  "main": "dist/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "VUE_ENV=server jest",
+    "lint": "eslint src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/:github_organization/:package_name.git"
+  },
+  "keywords": [
+    "spatie"
+  ],
+  "author": ":author_name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/:github_organization/:package_name/issues"
+  },
+  "homepage": "https://github.com/:github_organization/:package_name",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.9.0",
+    "eslint": "^3.7.1",
+    "eslint-config-spatie": "^1.1.0"
+  },
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "jest": "^17.0.2",
+    "vue": "^2.0.7",
+    "vue-server-renderer": "^2.0.7"
+  }
+}

@@ -1,0 +1,1 @@
+exports[`test matches a snapshot 1`] = `"<div server-rendered=\"true\">Hello world!</div>"`;
